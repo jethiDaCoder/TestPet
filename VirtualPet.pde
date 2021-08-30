@@ -1,4 +1,3 @@
-
 void setup(){
   size(700,700);
 }
@@ -7,14 +6,14 @@ void draw(){
   background(192);
   
   fill(250, 177, 50);
-  circle(250, 250, 300);
+  ellipse(250, 250, 300, 300);
   arc(370, 340, 180, 180, 0, HALF_PI);
   fill(255, 255, 255);
-  circle(100, 230, 70);
-  circle(200, 230, 70);
+  ellipse(100, 230, 70, 70);
+  ellipse(200, 230, 70, 70);
   fill(0, 0, 0);
-  circle(90, 230, 35);
-  circle(210, 230, 35);
+  ellipse(90, 230, 35, 35);
+  ellipse(210, 230, 35, 35);
   fill(255, 64, 38);
   ellipse(160, 300, 75, 45);
   fill(0, 0, 0);
